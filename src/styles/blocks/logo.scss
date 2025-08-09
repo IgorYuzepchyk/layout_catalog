@@ -1,10 +1,10 @@
-.logo1 {
+.logo {
   display: flex;
   bottom: 0;
-}
 
-.logo {
-  bottom: 0;
-  width: 40px;
-  height: 40px;
+  &__image {
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+  }
 }

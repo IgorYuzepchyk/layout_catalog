@@ -15,11 +15,12 @@
     align-items: center;
     align-content: space-between;
     text-decoration: none;
-    color: #060b35; // колір
+    color: $text-dark;
     font-weight: 500;
     font-size: 12px;
     text-transform: uppercase;
     height: 60px;
+    transition: color 0.3s ease;
   }
 
   &__link:hover {
